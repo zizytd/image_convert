@@ -5,7 +5,7 @@ from PIL import Image
 import subprocess
 folder = '/home/user/images' #folder that has the images
 new_folder = '/home/user/imaged' #folder the images will be copied to
-ds = '/home/zizy/imaged/.DS_Store'
+ds = '/home/user/imaged/.DS_Store'
 #iterate over the files in the folder variable
 for filename in os.listdir(folder): 
     full_filename = os.path.join(folder,filename)
